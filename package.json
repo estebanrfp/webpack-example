@@ -16,16 +16,26 @@
   "author": "Esteban Fuster Pozzi (https://desarrolloactivo.com)",
   "license": "MIT",
   "devDependencies": {
+    "autoprefixer": "^6.5.4",
+    "autoprefixer-loader": "^3.2.0",
     "babel-cli": "^6.18.0",
     "babel-eslint": "^7.1.1",
     "babel-loader": "^6.2.10",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-stage-2": "^6.18.0",
+    "css-loader": "^0.26.1",
     "eslint": "^3.12.2",
     "eslint-config-standard": "^6.2.1",
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^2.0.1",
+    "node-sass": "^4.0.0",
+    "postcss-loader": "^1.2.1",
+    "sass-loader": "^4.1.0",
+    "style-loader": "^0.13.1",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "pug": "^2.0.0-beta6"
   }
 }

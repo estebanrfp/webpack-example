@@ -4,6 +4,6 @@ export default class Persona {
   }
 
   saluda () {
-    console.log(`Hola! Soy ${this.nombre}`)
+    document.write(`Hola! Soy ${this.nombre}`)
   }
 }
