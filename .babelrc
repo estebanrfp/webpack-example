@@ -1,4 +1,7 @@
 {
-	"presets": [ "es2015", "stage-2" ],
-	"plugins": ["transform-async-to-generator", "syntax-async-functions", "transform-regenerator"]
+  "presets": [
+    "latest",
+    "stage-0"
+  ],
+  "plugins": ["transform-async-to-generator", "syntax-async-functions", "transform-regenerator"]
 }
